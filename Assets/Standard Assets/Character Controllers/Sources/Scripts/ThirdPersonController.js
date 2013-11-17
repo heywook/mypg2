@@ -194,11 +194,14 @@ function UpdateSmoothedMovementDirection ()
 		{
 			targetSpeed *= runSpeed;
 			_characterState = CharacterState.Running;
+			Debug.Log("_chacrte" + _characterState.ToString() );
+			
 		}
 		else if (Time.time - trotAfterSeconds > walkTimeStart)
 		{
 			targetSpeed *= trotSpeed;
 			_characterState = CharacterState.Trotting;
+			
 		}
 		else
 		{
