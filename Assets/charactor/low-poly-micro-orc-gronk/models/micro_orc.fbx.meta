@@ -1,0 +1,548 @@
+fileFormatVersion: 2
+guid: 9cc22a2c492cc1141803e0d6f1a530a3
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: body_orc
+    100002: eye_l_orc
+    100004: eye_r_orc
+    100006: eyes
+    100008: face_orc
+    100010: head_orc
+    100012: left_arm_orc
+    100014: left_hand_orc
+    100016: left_shoulder_orc
+    100018: //RootNode
+    100020: micro_orc
+    100022: right_arm_orc
+    100024: right_hand_orc
+    100026: right_shoulder_orc
+    100028: root_orc
+    400000: body_orc
+    400002: eye_l_orc
+    400004: eye_r_orc
+    400006: eyes
+    400008: face_orc
+    400010: head_orc
+    400012: left_arm_orc
+    400014: left_hand_orc
+    400016: left_shoulder_orc
+    400018: micro_orc
+    400020: //RootNode
+    400022: right_arm_orc
+    400024: right_hand_orc
+    400026: right_shoulder_orc
+    400028: root_orc
+    4300000: eyes
+    4300002: micro_orc
+    7400000: block_start
+    7400002: idle
+    7400004: block_end
+    7400006: Chomp
+    7400008: walk
+    9500000: //RootNode
+    13700000: eyes
+    13700002: micro_orc
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: eyes
+        weight: 1
+      - path: micro_orc
+        weight: 1
+      - path: root_orc
+        weight: 1
+      - path: root_orc/body_orc
+        weight: 1
+      - path: root_orc/body_orc/head_orc
+        weight: 1
+      - path: root_orc/body_orc/head_orc/eye_l_orc
+        weight: 1
+      - path: root_orc/body_orc/head_orc/eye_r_orc
+        weight: 1
+      - path: root_orc/body_orc/head_orc/face_orc
+        weight: 1
+      - path: root_orc/body_orc/left_shoulder_orc
+        weight: 1
+      - path: root_orc/body_orc/left_shoulder_orc/left_arm_orc
+        weight: 1
+      - path: root_orc/body_orc/left_shoulder_orc/left_arm_orc/left_hand_orc
+        weight: 1
+      - path: root_orc/body_orc/right_shoulder_orc
+        weight: 1
+      - path: root_orc/body_orc/right_shoulder_orc/right_arm_orc
+        weight: 1
+      - path: root_orc/body_orc/right_shoulder_orc/right_arm_orc/right_hand_orc
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: block_start
+      takeName: Take 001
+      firstFrame: 121
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: eyes
+        weight: 1
+      - path: micro_orc
+        weight: 1
+      - path: root_orc
+        weight: 1
+      - path: root_orc/body_orc
+        weight: 1
+      - path: root_orc/body_orc/head_orc
+        weight: 1
+      - path: root_orc/body_orc/head_orc/eye_l_orc
+        weight: 1
+      - path: root_orc/body_orc/head_orc/eye_r_orc
+        weight: 1
+      - path: root_orc/body_orc/head_orc/face_orc
+        weight: 1
+      - path: root_orc/body_orc/left_shoulder_orc
+        weight: 1
+      - path: root_orc/body_orc/left_shoulder_orc/left_arm_orc
+        weight: 1
+      - path: root_orc/body_orc/left_shoulder_orc/left_arm_orc/left_hand_orc
+        weight: 1
+      - path: root_orc/body_orc/right_shoulder_orc
+        weight: 1
+      - path: root_orc/body_orc/right_shoulder_orc/right_arm_orc
+        weight: 1
+      - path: root_orc/body_orc/right_shoulder_orc/right_arm_orc/right_hand_orc
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: block_end
+      takeName: Take 001
+      firstFrame: 131
+      lastFrame: 140
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: eyes
+        weight: 1
+      - path: micro_orc
+        weight: 1
+      - path: root_orc
+        weight: 1
+      - path: root_orc/body_orc
+        weight: 1
+      - path: root_orc/body_orc/head_orc
+        weight: 1
+      - path: root_orc/body_orc/head_orc/eye_l_orc
+        weight: 1
+      - path: root_orc/body_orc/head_orc/eye_r_orc
+        weight: 1
+      - path: root_orc/body_orc/head_orc/face_orc
+        weight: 1
+      - path: root_orc/body_orc/left_shoulder_orc
+        weight: 1
+      - path: root_orc/body_orc/left_shoulder_orc/left_arm_orc
+        weight: 1
+      - path: root_orc/body_orc/left_shoulder_orc/left_arm_orc/left_hand_orc
+        weight: 1
+      - path: root_orc/body_orc/right_shoulder_orc
+        weight: 1
+      - path: root_orc/body_orc/right_shoulder_orc/right_arm_orc
+        weight: 1
+      - path: root_orc/body_orc/right_shoulder_orc/right_arm_orc/right_hand_orc
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Chomp
+      takeName: Take 001
+      firstFrame: 142
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: eyes
+        weight: 1
+      - path: micro_orc
+        weight: 1
+      - path: root_orc
+        weight: 1
+      - path: root_orc/body_orc
+        weight: 1
+      - path: root_orc/body_orc/head_orc
+        weight: 1
+      - path: root_orc/body_orc/head_orc/eye_l_orc
+        weight: 1
+      - path: root_orc/body_orc/head_orc/eye_r_orc
+        weight: 1
+      - path: root_orc/body_orc/head_orc/face_orc
+        weight: 1
+      - path: root_orc/body_orc/left_shoulder_orc
+        weight: 1
+      - path: root_orc/body_orc/left_shoulder_orc/left_arm_orc
+        weight: 1
+      - path: root_orc/body_orc/left_shoulder_orc/left_arm_orc/left_hand_orc
+        weight: 1
+      - path: root_orc/body_orc/right_shoulder_orc
+        weight: 1
+      - path: root_orc/body_orc/right_shoulder_orc/right_arm_orc
+        weight: 1
+      - path: root_orc/body_orc/right_shoulder_orc/right_arm_orc/right_hand_orc
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: walk
+      takeName: Take 001
+      firstFrame: 841
+      lastFrame: 860
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: eyes
+        weight: 1
+      - path: micro_orc
+        weight: 1
+      - path: root_orc
+        weight: 1
+      - path: root_orc/body_orc
+        weight: 1
+      - path: root_orc/body_orc/head_orc
+        weight: 1
+      - path: root_orc/body_orc/head_orc/eye_l_orc
+        weight: 1
+      - path: root_orc/body_orc/head_orc/eye_r_orc
+        weight: 1
+      - path: root_orc/body_orc/head_orc/face_orc
+        weight: 1
+      - path: root_orc/body_orc/left_shoulder_orc
+        weight: 1
+      - path: root_orc/body_orc/left_shoulder_orc/left_arm_orc
+        weight: 1
+      - path: root_orc/body_orc/left_shoulder_orc/left_arm_orc/left_hand_orc
+        weight: 1
+      - path: root_orc/body_orc/right_shoulder_orc
+        weight: 1
+      - path: root_orc/body_orc/right_shoulder_orc/right_arm_orc
+        weight: 1
+      - path: root_orc/body_orc/right_shoulder_orc/right_arm_orc/right_hand_orc
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: root_orc
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: body_orc
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: head_orc
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: left_shoulder_orc
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: right_shoulder_orc
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: left_arm_orc
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: right_arm_orc
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: left_hand_orc
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: right_hand_orc
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: eye_l_orc
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: eye_r_orc
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: face_orc
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: micro_orc(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: eyes
+      position: {x: 0, y: -.0594988912, z: .00865685008}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: micro_orc
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: root_orc
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: body_orc
+      position: {x: 0, y: .222993448, z: -.0147257298}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: head_orc
+      position: {x: 0, y: .197528884, z: .0055634696}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: eye_l_orc
+      position: {x: -.141221046, y: .335583448, z: .31053105}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: eye_r_orc
+      position: {x: .160981953, y: .335583448, z: .31053105}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: face_orc
+      position: {x: 0, y: .410325289, z: .218121246}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: left_shoulder_orc
+      position: {x: -.566586852, y: .317477524, z: -.0330947861}
+      rotation: {x: 0, y: -.0652686208, z: -.657411397, w: .750699878}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: left_arm_orc
+      position: {x: -.0157938004, y: -.13841106, z: .0137416199}
+      rotation: {x: .10267321, y: -.000555157254, z: .127577409, w: .986499846}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: left_hand_orc
+      position: {x: -.0462882519, y: -.0949106216, z: .0368393883}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: right_shoulder_orc
+      position: {x: .566586852, y: .317477524, z: -.0330947861}
+      rotation: {x: 0, y: .0652686208, z: .657411397, w: .750699878}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: right_arm_orc
+      position: {x: .0157938004, y: -.13841106, z: .0137416199}
+      rotation: {x: .10267321, y: .000555157254, z: -.127577409, w: .986499846}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: right_hand_orc
+      position: {x: .0462882519, y: -.0949106216, z: .0368393883}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: root_orc
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  userData: 
